@@ -25,7 +25,7 @@ function validateUserForm() {
   }
 
   if (isValidForm) {
-    alert("Form submitted succeddfuly...");
+    alert("Form submitted successfuly...");
   }
 }
 submitFormButton.addEventListener("click", () => {
