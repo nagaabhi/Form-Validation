@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Form Validation</h2>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input class="js-input-email" type="email" id="email" placeholder="Enter your email" required />
+      <p class="js-display-email-err"></p>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input class="js-input-password" type="password" id="password" placeholder="Enter your password" required />
+      <p class="js-display-password-err"></p>
+    </div>
+    <div class="form-group">
+      <button class="js-submit-button" type="submit">Validate</button>
+    </div>
+  
+</body>
+<script src="./index.js"></script>
+</html>
